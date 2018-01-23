@@ -19,22 +19,11 @@ public class SumOfNumberTest {
 
     @Test
     public void sumOfNumberFromInput() throws IOException {
-        FileReader frInput = new FileReader("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
-                "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_002\\solution\\input.txt");
+        SumOfNumber sumOfNumber = new SumOfNumber();
+        String expected = sumOfNumber.sumOfNumbFromFile();
         FileReader frOutput = new FileReader("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
                 "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_002\\solution\\output.txt");
-        Scanner scan = new Scanner(frInput);
-        String input = scan.next();
-        int numb = Integer.parseInt(input);
-
-        int sum = 0;
-        for (int i = 1; i <= numb; i++) {
-            sum += i;
-        }
-
-        String expected = String.valueOf(sum);
-
-        scan = new Scanner(frOutput);
+        Scanner scan = new Scanner(frOutput);
         String output = scan.next();
         Assert.assertThat(output, Is.is(expected));
     }
