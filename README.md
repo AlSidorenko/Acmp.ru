@@ -19,9 +19,9 @@
 http://informatics.mccme.ru и http://olympiads.ru. Ряд задач взят из книги Федора Меньшикова 
 "Олимпиадные задачи по программированию".
 
-#####[Задача 001](https://github.com/AlSidorenko/Acmp.ru/blob/master/Tasks_001_050/src/main/java/ru/tasks/task_001/exersice.txt).
+##### [Задача 001](https://github.com/AlSidorenko/Acmp.ru/blob/master/Tasks_001_050/src/main/java/ru/tasks/task_001/exersice.txt).
 [Решение](https://github.com/AlSidorenko/Acmp.ru/tree/master/Tasks_001_050/src/main/java/ru/tasks/task_001/solution).
 [Тест](https://github.com/AlSidorenko/Acmp.ru/tree/master/Tasks_001_050/src/test/java/ru/tasks/task_001/solution).
-#####[Задача 002](https://github.com/AlSidorenko/Acmp.ru/blob/master/Tasks_001_050/src/main/java/ru/tasks/task_002/exercise.txt).
+##### [Задача 002](https://github.com/AlSidorenko/Acmp.ru/blob/master/Tasks_001_050/src/main/java/ru/tasks/task_002/exercise.txt).
 [Решение](https://github.com/AlSidorenko/Acmp.ru/tree/master/Tasks_001_050/src/main/java/ru/tasks/task_002/solution).
 [Тест](https://github.com/AlSidorenko/Acmp.ru/tree/master/Tasks_001_050/src/test/java/ru/tasks/task_002/solution).
