@@ -13,14 +13,12 @@ import java.util.Scanner;
  * @since 0.1.
  */
 public class SumElements {
-    public static void main(String[] args) throws IOException {
 
+    public String sumElemFromFiles() throws IOException {
         FileReader fr = new FileReader("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
                 "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\input.txt");
-
         Scanner scan = new Scanner(fr);
         String input = scan.nextLine();
-
         String[] parts = input.split(" ");
         int[] array = new int[parts.length];
         int sum = 0;
@@ -28,12 +26,11 @@ public class SumElements {
             array[i] = Integer.parseInt(parts[i]);
             sum += array[i];
         }
-
         String s = String.valueOf(sum);
-
         FileWriter fw = new FileWriter("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
                 "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\output.txt");
         fw.write(s);
         fw.close();
+        return s;
     }
 }
