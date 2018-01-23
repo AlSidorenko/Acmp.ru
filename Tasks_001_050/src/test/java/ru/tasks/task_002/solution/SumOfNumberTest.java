@@ -1,6 +1,7 @@
 package ru.tasks.task_002.solution;
 
-import org.hamcrest.core.Is;
+import static org.hamcrest.core.Is.is;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -25,6 +26,6 @@ public class SumOfNumberTest {
                 "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_002\\solution\\output.txt");
         Scanner scan = new Scanner(frOutput);
         String output = scan.next();
-        Assert.assertThat(output, Is.is(expected));
+        Assert.assertThat(output, is(expected));
     }
 }
