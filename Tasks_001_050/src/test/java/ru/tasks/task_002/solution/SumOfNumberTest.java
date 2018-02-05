@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -21,6 +22,10 @@ public class SumOfNumberTest {
     @Test
     public void sumOfNumberFromInput() throws IOException {
         SumOfNumber sumOfNumber = new SumOfNumber();
+        FileWriter fwInput = new FileWriter("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject" +
+                "\\Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_002\\solution\\input.txt");
+        fwInput.write("5");
+        fwInput.close();
         String expected = sumOfNumber.sumOfNumbFromFile();
         FileReader frOutput = new FileReader("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
                 "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_002\\solution\\output.txt");
