@@ -15,6 +15,19 @@
 
     <modules>
         <module>Tasks_001_050</module>
+        <module>Tasks_051_100</module>
+        <module>Tasks_101_150</module>
+        <module>Tasks_151_200</module>
+        <module>Tasks_201_250</module>
+        <module>Tasks_251_300</module>
+        <module>Tasks_301_350</module>
+        <module>Tasks_351_400</module>
+        <module>Tasks_401_450</module>
+        <module>Tasks_451_500</module>
+        <module>Tasks_501_550</module>
+        <module>Tasks_551_600</module>
+        <module>Tasks_601_650</module>
+        <module>Tasks_651_700</module>
     </modules>
 	
 	<dependencies>
