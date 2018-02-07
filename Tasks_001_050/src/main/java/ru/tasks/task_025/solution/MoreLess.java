@@ -56,9 +56,4 @@ public class MoreLess {
             return "=";
         }
     }
-
-    public static void main(String[] args) throws IOException {
-        MoreLess moreLess = new MoreLess();
-        System.out.println(moreLess.result(moreLess.arrayListInt()));
-    }
 }
