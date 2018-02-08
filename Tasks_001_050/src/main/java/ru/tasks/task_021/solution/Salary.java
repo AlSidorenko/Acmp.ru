@@ -47,9 +47,4 @@ public class Salary {
         fw.close();
         return String.valueOf(max - min);
     }
-
-    public static void main(String[] args) throws IOException {
-        Salary salary = new Salary();
-        salary.result(salary.arrInt());
-    }
 }
