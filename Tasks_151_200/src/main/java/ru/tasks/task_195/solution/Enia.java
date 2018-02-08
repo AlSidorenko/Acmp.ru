@@ -42,9 +42,4 @@ public class Enia extends Object {
         fw.close();
         return result;
     }
-
-    public static void main(String[] args) throws IOException {
-        Enia enia = new Enia();
-        System.out.println(enia.result(enia.arrInt()));
-    }
 }
