@@ -21,13 +21,13 @@ public class SumElementsTest {
     @Test
     public void sumOfElementsFromInput() throws IOException {
         SumElements sumElements = new SumElements();
-        FileWriter fwInput = new FileWriter("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject" +
-                "\\Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\input.txt");
+        FileWriter fwInput = new FileWriter("C:\\Users\\Александр\\Documents\\IdeaProject\\Acmp.ru\\" +
+                "Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\input.txt");
         fwInput.write("2 3");
         fwInput.close();
         String expected = sumElements.sumElemFromFiles();
-        FileReader frOutput = new FileReader("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
-                "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\output.txt");
+        FileReader frOutput = new FileReader("C:\\Users\\Александр\\Documents\\IdeaProject\\Acmp.ru\\" +
+                "Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\output.txt");
         Scanner sc = new Scanner(frOutput);
         String output = sc.nextLine();
         Assert.assertThat(expected, is(output));

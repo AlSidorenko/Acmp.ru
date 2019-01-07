@@ -15,8 +15,8 @@ import java.util.Scanner;
 public class SumElements {
 
     public String sumElemFromFiles() throws IOException {
-        FileReader fr = new FileReader("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
-                "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\input.txt");
+        FileReader fr = new FileReader("C:\\Users\\Александр\\Documents\\IdeaProject\\Acmp.ru\\" +
+                "Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\input.txt");
         Scanner scan = new Scanner(fr);
         String input = scan.nextLine();
         String[] parts = input.split(" ");
@@ -27,8 +27,8 @@ public class SumElements {
             sum += array[i];
         }
         String s = String.valueOf(sum);
-        FileWriter fw = new FileWriter("C:\\Users\\Александр\\OneDrive\\Документы\\IdeaProject\\" +
-                "Acmp.ru\\Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\output.txt");
+        FileWriter fw = new FileWriter("C:\\Users\\Александр\\Documents\\IdeaProject\\Acmp.ru\\" +
+                "Tasks_001_050\\src\\main\\java\\ru\\tasks\\task_001\\solution\\output.txt");
         fw.write(s);
         fw.close();
         return s;

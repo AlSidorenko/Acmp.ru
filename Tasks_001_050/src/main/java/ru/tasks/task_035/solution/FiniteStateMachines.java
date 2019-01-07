@@ -71,7 +71,7 @@ public class FiniteStateMachines {
     public static void main(String[] args) throws IOException {
         long timeStart = System.currentTimeMillis();
         FiniteStateMachines finiteMachines = new FiniteStateMachines();
-        //System.out.println(Arrays.toString(finiteMachines.fsm()));
+        System.out.println(Arrays.toString(finiteMachines.fsm()));
         String s = finiteMachines.result(finiteMachines.fsm());
         System.out.println(s);
         long timeFinish = System.currentTimeMillis();
